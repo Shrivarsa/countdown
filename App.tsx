@@ -63,9 +63,9 @@ const App: React.FC = () => {
             <div className="mt-8 p-4 border border-gray-800 bg-gray-900/50 backdrop-blur text-left max-w-md w-full">
               <h3 className="text-cyan-500 font-bold mb-2 uppercase text-xs tracking-wider border-b border-gray-700 pb-1">Status Log</h3>
               <ul className="text-xs font-mono text-gray-400 space-y-1">
-                <li className="flex justify-between"><span>> CONNECTING_TO_MAINFRAME...</span> <span className="text-green-500">OK</span></li>
-                <li className="flex justify-between"><span>> BYPASSING_FIREWALLS...</span> <span className="text-green-500">OK</span></li>
-                <li className="flex justify-between"><span>> SYNCING_NEURAL_CLOCKS...</span> <span className="text-yellow-500 animate-pulse">PROCESSING</span></li>
+                <li className="flex justify-between"><span>{'>'} CONNECTING_TO_MAINFRAME...</span> <span className="text-green-500">OK</span></li>
+                <li className="flex justify-between"><span>{'>'} BYPASSING_FIREWALLS...</span> <span className="text-green-500">OK</span></li>
+                <li className="flex justify-between"><span>{'>'} SYNCING_NEURAL_CLOCKS...</span> <span className="text-yellow-500 animate-pulse">PROCESSING</span></li>
               </ul>
             </div>
           </section>
